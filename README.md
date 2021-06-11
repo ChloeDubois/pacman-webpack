@@ -12,8 +12,7 @@ J'ai fait le choix d'organiser les différents modules JavaScript de la manière
 - Le dossier **/classes** contient les classes Javascripts utilisées pour définir les personnages:
     - *Character.js* : la classe général qui définit les propriétés et méthodes des personnages.
     - *PacMan.js* et *Ghost.js* : les classes qui définissent respectivement les personnages de Pacman et du fantôme. Toutes deux héritent des propriétés et méthodes de la classe Character.
-- Le dossier **/functions** contient 
-    - 
+- Le dossier **/functions** contient la fonction *EndGame.js*
 
 # Why did I choose the Module Bundler Webpack ?
 
