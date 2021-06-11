@@ -6,11 +6,14 @@ Le projet contient deux dossiers principaux :
 
 J'ai fait le choix d'organiser les différents modules JavaScript de la manière suivante:
 - Le dossier **/constants** contient tous les "paramètres" du jeu (c'est à dire des différentes variables prédéfinies):
-    - characterConstants.js : les variables qui concernent les personnages (Pacman et fantômes).
-    - foodConstants.js : les variables qui concernent la nourriture.
-    - settingConstants.js : les variables qui concernent les éléments de décors du jeu (surfaces, obstacles).
-- Le dossier **/classes** contient 
+    - *characterConstants.js* : les variables qui concernent les personnages (Pacman et fantômes).
+    - *foodConstants.js* : les variables qui concernent la nourriture.
+    - *settingConstants.js* : les variables qui concernent les éléments de décors du jeu (surfaces, obstacles).
+- Le dossier **/classes** contient les classes Javascripts utilisées pour définir les personnages:
+    - *Character.js* : la classe général qui définit les propriétés et méthodes des personnages.
+    - *PacMan.js* et *Ghost.js* : les classes qui définissent respectivement les personnages de Pacman et du fantôme. Toutes deux héritent des propriétés et méthodes de la classe Character.
 - Le dossier **/functions** contient 
+    - 
 
 # Why did I choose the Module Bundler Webpack ?
 
